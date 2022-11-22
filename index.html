@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+     <title>Smart Cards</title>
+</head>
+<body>
+    <section>
+        <div class="circle"> </div>
+        <header>
+            <a href="#"><img src="logo/logo-no-background card.png" class="logo"></a>
+            <ul>
+                <li><a href="#">Naslovna</a></li>
+                <li><a href="#">Proizvodi</a></li>
+                <li><a href="#">Custom</a></li>
+                <li><a href="#">Kontakt</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+
+                <h2><span>NFC pametna vizit kartica</span> <br>Papiri su stvar prošlosti  uvedi svoje poslovanje u budućnost!</h2><br>
+                <p>Zaboravite na petljanje sa starim papirnatim vizit karticama!<br><br>Prenesite sve informacije upravo tamo gdje ljudi provode najviše vremena<br>na svom mobilnom telefonu!</p><br>
+                <p>Podijelite kontakt informacije jednim dodirom!</p><br>
+                <p>Dijelite vašu digitalnu vizit karticu bez ograničenja.</p><br>
+                <p> Korisitite QR kod za starije modele mobilnih telefona bez NFC-a.</p>
+                    <a href="#">Pogledaj više</a>
+            </div>
+                <div class="imgbox">
+                    <img src="proizvodi/web slike/3.png" class="kartica">
+                </div>
+
+            </div>
+                    <ul class="thumb">
+                        <li><img src="proizvodi/web slike/3.png" onclick="imgSlider('3.png')"></li>
+                        <li><img src="proizvodi/web slike/4.png" onclick="imgSlider('4.png')"></li>
+                        <li><img src="proizvodi/web slike/11.png"onclick="imgSlider('11.png')"></li>
+                        <li><img src="proizvodi/web slike/8.png" onclick="imgSlider('8.png')"></li>
+                        <li><img src="proizvodi/web slike/9.png" onclick="imgSlider('9.png')"></li>
+                        <li><img src="proizvodi/web slike/10.png"onclick="imgSlider('10.png')"></li>
+                    </ul>
+                    
+                    <ul class="sci">
+                        <li><a href="#"><img src="icons/facebook.png"></a></li>
+                        <li><a href="#"><img src="icons/instagram (2).png" alt=""></a></li>
+                    </ul>
+    </section>
+   
+    
+    <script type="text/javascript">
+         
+         function imgSlider(anything){
+        document.querySelector('.kartica').src = "proizvodi/web slike/" + anything;
+    }    
+
+    </script>
+                    
+    
+    
+</body>
+</html>
